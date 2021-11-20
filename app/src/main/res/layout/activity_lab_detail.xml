@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".labDetailActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civprofilelab"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_engineering_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dhjdkfh"
+        android:layout_below="@+id/civprofilelab"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/tvprofnamelab"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dhjdkfh"
+        android:layout_below="@+id/tvprofnamelab"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/tvprofplacelab"/>
+
+    <TextView
+        android:id="@+id/tvreqdproflab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvprofplacelab"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Skills - "
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvtypeproflab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvprofplacelab"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/tvreqdproflab"
+        android:text="jsdhjsdah"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvfixcharrges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtypeproflab"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Charges - "
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvchargers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtypeproflab"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/tvreqdproflab"
+        android:text="jsdhjsdah"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvchargers"
+        android:text="Location"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/tvlocation"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/googlemapss"
+        android:layout_margin="25dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/tvlocation"
+        android:id="@+id/ivlocationlab"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivlocationlab"
+        android:text="CHAT"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:id="@+id/btnlabchat"/>
+
+
+</RelativeLayout>

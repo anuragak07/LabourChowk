@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabourChowk">
         <activity
+            android:name=".labDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DettActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailsActivity"
             android:exported="false" />
         <activity

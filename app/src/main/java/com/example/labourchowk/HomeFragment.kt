@@ -1,5 +1,6 @@
 package com.example.labourchowk
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -50,7 +51,12 @@ class HomeFragment : Fragment(R.layout.fragment_home),HomeListener {
     }
 
     override fun onitemclicked(position: Int, homemodel: HoimModel) {
-
+   val intent=Intent(context,DettActivity::class.java)
+        intent.putExtra("img",homemodel.Image)
+        intent.putExtra("naam",homemodel.name1)
+        intent.putExtra("place",homemodel.place1)
+        intent.putExtra("reqdd",homemodel.Reqd)
+        startActivity(intent)
     }
 
 }

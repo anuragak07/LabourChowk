@@ -1,5 +1,6 @@
 package com.example.labourchowk
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -47,7 +48,13 @@ class LabourFragment : Fragment(R.layout.fragment_labour),Labourlistener {
 
 
     override fun onclick(position: Int, model: LabourModel) {
-        TODO("Not yet implemented")
+        val intent=Intent(context,labDetailActivity::class.java)
+        intent.putExtra("imgg",model.Image1)
+        intent.putExtra("naam",model.name2)
+        intent.putExtra("placee",model.place2)
+        intent.putExtra("skill",model.Reqd1)
+        intent.putExtra("rs",model.charge)
+        startActivity(intent)
     }
 
 }
