@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabourChowk">
         <activity
+            android:name=".login.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login.SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".login.LoginScreen"
+            android:exported="true" />
+        <activity
+            android:name=".login.SplashActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

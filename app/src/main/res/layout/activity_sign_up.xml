@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#36D1CB"
+    tools:context=".login.SignUp">
+
+    <ImageView
+        android:id="@+id/SplashScreenImage"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/capicon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Register"
+        android:textColor="#3949AB"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EmailEtR"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_corner"
+        android:paddingLeft="20dp"
+        android:hint="Email"
+        android:textColor="#3949AB"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/PasswordEtR"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:background="@drawable/round_corner"
+        android:paddingLeft="20dp"
+        android:hint="Password"
+        android:textColor="#3949AB"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ConfirmEdit"
+        android:layout_width="300dp"
+        android:inputType="textPassword"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_corner"
+        android:paddingLeft="20dp"
+        android:hint="Confirm Password"
+        android:textColor="#3949AB"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/RegisterBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:text="Register"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Already have an account? Sign in"
+        android:textColor="#3949AB"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>
