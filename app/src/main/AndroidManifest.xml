@@ -10,17 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabourChowk">
         <activity
-            android:name=".login.ProfileActivity"
-            android:exported="true" />
+            android:name=".labDetailActivity"
+            android:exported="false" />
         <activity
-            android:name=".login.SignUp"
-            android:exported="true" />
+            android:name=".DettActivity"
+            android:exported="false" />
         <activity
-            android:name=".login.LoginScreen"
-            android:exported="true" />
+            android:name=".DetailsActivity"
+            android:exported="false" />
         <activity
-            android:name=".login.SplashActivity"
-            android:exported="true" />
+            android:name=".DetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/Theme.LabourChowk.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

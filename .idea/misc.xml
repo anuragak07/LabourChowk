@@ -3,17 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/LabourChowkNew/app/src/main/res/drawable/round_button.xml" value="0.2203125" />
-        <entry key="..\:/LabourChowkNew/app/src/main/res/drawable/round_corner.xml" value="0.2203125" />
-        <entry key="..\:/LabourChowkNew/app/src/main/res/layout/activity_login_screen.xml" value="0.19010416666666666" />
-        <entry key="..\:/LabourChowkNew/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
-        <entry key="..\:/LabourChowkNew/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
-        <entry key="..\:/LabourChowkNew/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
-        <entry key="..\:/LabourChowkNew/app/src/main/res/layout/activity_splash.xml" value="0.19010416666666666" />
-        <entry key="..\:/LabourChowkNew/app/src/main/res/layout/fragment_login_screen.xml" value="0.20416666666666666" />
-        <entry key="..\:/LabourChowkNew/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
-        <entry key="..\:/LabourChowkNew/app/src/main/res/layout/fragment_search.xml" value="0.22" />
-        <entry key="..\:/LabourChowkNew/app/src/main/res/layout/fragment_sign_up.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/layout/activity_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/layout/activity_dett.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/layout/activity_lab_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/layout/forhomelayout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/layout/fragment_labour.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/layout/fragmenthome.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/layout/header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/layout/labourlayout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dudi/AndroidStudioProjects/LabourChowk/app/src/main/res/menu/homemenu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
