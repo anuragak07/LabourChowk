@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:background="#0000ff">
+                android:background="#3949AB">
 
                 <com.google.android.material.appbar.MaterialToolbar
                     android:id="@+id/material"
@@ -37,9 +37,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_toRightOf="@+id/ablbar"
-                android:background="#0000ff"
+                android:background="#3949AB"
                 android:gravity="center"
-                android:text="C    H    O   W   K"
+
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -60,8 +60,6 @@
             app:headerLayout="@layout/header"
             app:menu="@menu/homemenu" />
     </androidx.drawerlayout.widget.DrawerLayout>
-
-
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

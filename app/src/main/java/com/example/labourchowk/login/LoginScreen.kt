@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
+import com.example.labourchowk.MainActivity
 import com.example.labourchowk.R
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login_screen.*
@@ -37,7 +38,7 @@ class LoginScreen : AppCompatActivity() {
                 .addOnCompleteListener{
                     if (it.isSuccessful){
                         Toast.makeText(this, "Login Success", Toast.LENGTH_SHORT).show()
-                        startActivity(Intent(this,ProfileActivity::class.java))
+                        startActivity(Intent(this,MainActivity::class.java))
                         finish()
                     }else{
                         Toast.makeText(

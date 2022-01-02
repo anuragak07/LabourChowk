@@ -37,6 +37,10 @@ class MainActivity : AppCompatActivity() {
                     loadFragment(ProfileFragment())
                     return@setOnNavigationItemSelectedListener true
                 }*/
+                R.id.Search->{
+                    loadFragment(Search())
+                    return@setOnNavigationItemSelectedListener  true
+                }
                 R.id.list -> {
 
                    loadFragment(LabourFragment())

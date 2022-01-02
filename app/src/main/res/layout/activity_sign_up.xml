@@ -13,7 +13,7 @@
         android:id="@+id/SplashScreenImage"
         android:layout_width="150dp"
         android:layout_height="200dp"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="0sp"
         android:src="@drawable/capicon" />
 
     <TextView
@@ -22,7 +22,17 @@
         android:layout_marginTop="0dp"
         android:text="Register"
         android:textColor="#3949AB"
-        android:textSize="45dp"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_corner"
+        android:paddingLeft="20dp"
+        android:hint="Name"
+        android:textColor="#3949AB"
         android:textStyle="bold" />
 
     <EditText

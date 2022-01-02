@@ -29,7 +29,10 @@ class SignUp : AppCompatActivity() {
 
     private fun register() {
         RegisterBtn.setOnClickListener {
-            if (TextUtils.isEmpty(EmailEtR.text.toString())) {
+            if(TextUtils.isEmpty(Name.text.toString())){
+                Name.setError("Please enter name")
+                return@setOnClickListener
+        }else if (TextUtils.isEmpty(EmailEtR.text.toString())) {
                 EmailEtR.setError("Please enter emailId")
                 return@setOnClickListener
             } else if (TextUtils.isEmpty(PasswordEtR.text.toString())) {
@@ -48,6 +51,7 @@ class SignUp : AppCompatActivity() {
                         val currentUser = auth.currentUser
                         val currentUserDb = databaseReference?.child(currentUser?.uid!!)
                         currentUserDb?.child("email")?.setValue(EmailEtR.text.toString())
+                        currentUserDb?.child("name")?.setValue(Name.text.toString())
 
                         Toast.makeText(this, "Registration Success", Toast.LENGTH_SHORT).show()
                         finish()

@@ -14,15 +14,14 @@
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:src="@drawable/capicon"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="0sp"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
         android:textColor="#3949AB"
-
-        android:textSize="45dp"
+        android:textSize="35dp"
         android:textStyle="bold"
         android:layout_marginTop="0dp"/>
     <EditText
